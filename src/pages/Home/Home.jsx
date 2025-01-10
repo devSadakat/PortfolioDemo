@@ -1,8 +1,9 @@
-
+import NavBar from "../../NavBar/NavBar";
+import "../Home/style.css"
 const Home = () => {
     return (
         <div>
-            <h1>Nav Bar wiht profile photo</h1>
+            <NavBar/>
             {/* Div 1 */}
             <div>
                 {/* This need to be make flex */}
