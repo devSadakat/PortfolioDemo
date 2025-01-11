@@ -4,7 +4,6 @@ const Home = () => {
     return (
         <div>
             <NavBar/>
-            {/* Div 1 */}
             <div>
                 {/* This need to be make flex */}
                 <div>
