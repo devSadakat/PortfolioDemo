@@ -3,7 +3,7 @@ import "../Home/style.css"
 const Home = () => {
     return (
         <div>
-            <NavBar/>
+            <NavBar />
             <div>
                 {/* This need to be make flex */}
                 <div>

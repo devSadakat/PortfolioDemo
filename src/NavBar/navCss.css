@@ -1,7 +1,25 @@
+#nav {
+    display: flex;justify-content: space-between;
+
+}
+
+
 #navId {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: violet;
     padding: 5px;
     border-radius: 10px;
-};
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+
+    color: white;
+    background-color: blueviolet;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 5px;
+}

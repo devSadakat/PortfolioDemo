@@ -2,10 +2,13 @@
 import "../NavBar/navCss.css"
 const NavBar = () => {
     return (
-        <div id='navId'>
-            <div className="navBtn"><button>NavOption1</button></div>
-            <div className="navBtn"><button>NavOption2</button></div>
-            <div className="navBtn"><button>NavOption3</button></div>
+        <div id="nav">
+            <div id='navId'>
+                <div><button className="navBtn">Experience</button></div>
+                <div><button className="navBtn">Projects</button></div>
+                <div><button className="navBtn">Blogs</button></div>
+            </div>
+            <div id="img"><img src="" alt="Image" /></div>
         </div>
     );
 };
