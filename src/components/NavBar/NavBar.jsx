@@ -1,5 +1,5 @@
 
-import "../NavBar/navCss.css"
+import "./navCss.css"
 const NavBar = () => {
     return (
         <div id="nav">

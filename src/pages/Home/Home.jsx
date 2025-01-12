@@ -1,18 +1,12 @@
-import NavBar from "../../NavBar/NavBar";
+import NavBar from "../../components/NavBar/NavBar.jsx";
+import Profession from "../../components/Profession/Profession.jsx";
 import "../Home/style.css"
 const Home = () => {
     return (
         <div>
             <NavBar />
             <div>
-                {/* This need to be make flex */}
-                <div>
-                    <h1>Proffession</h1>
-                    <p>Short Descriptions</p>
-                </div>
-                <div>
-                    <img src="Profile Photo" alt="" />
-                </div>
+                <Profession/>
             </div>
             {/* Div 2 */}
             <div>Experties</div>
