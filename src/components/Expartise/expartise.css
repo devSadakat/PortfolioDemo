@@ -1,0 +1,22 @@
+#expartise {
+    padding-top: 55px;
+}
+
+#text {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#text p {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.image img{
+    width: 150px;
+}
