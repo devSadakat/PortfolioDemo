@@ -15,8 +15,20 @@
 .image {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 40px;
+    padding: 50px;
 }
 
 .image img{
     width: 150px;
+    margin-inline: auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.image img:hover {
+    cursor: pointer;
+    width: 155px;
+    /* transition-duration: 0.3s; */
 }

@@ -1,6 +1,9 @@
+import Career from "../../components/Career/Career.jsx";
+import Contact from "../../components/Contect/Contact.jsx";
 import Expartise from "../../components/Expartise/Expartise.jsx";
 import NavBar from "../../components/NavBar/NavBar.jsx";
 import Profession from "../../components/Profession/Profession.jsx";
+import Projects from "../../components/Projects/Projects.jsx";
 import "../Home/style.css"
 const Home = () => {
     return (
@@ -8,18 +11,24 @@ const Home = () => {
             <NavBar />
 
             <div>
-                <Profession/>
+                <Profession />
             </div>
 
             <div>
-                <Expartise/>
+                <Expartise />
             </div>
-            
-            <div>Projects</div>
-            {/* Div 4 */}
-            <div>Career Experience</div>
-            {/* Div 5 */}
-            <div>Contact Section</div>
+
+            <div>
+                <Projects />
+            </div>
+
+            <div>
+                <Career />
+            </div>
+
+            <div>
+                <Contact />
+            </div>
         </div>
     );
 };

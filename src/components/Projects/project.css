@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+#project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#project img{
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#project img:hover{
+    width: 405px;
+}
