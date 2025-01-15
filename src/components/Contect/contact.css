@@ -1,7 +1,30 @@
 .text {
-
+    border: solid violet;
 }
 
 .text h2{
- 
+    text-align: center;
+}
+
+.text h3{
+    text-align: center;
+}
+
+.text p{
+    padding: 0;
+}
+
+#contact h2{
+    text-align: center;
+    background-color: gray;
+    width: 90px;
+    border-radius: 14px;
+    margin-inline: auto;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-inline: auto;
 }

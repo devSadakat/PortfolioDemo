@@ -12,11 +12,15 @@ const Contact = () => {
                     <p>Phone: +880188-7023201</p>
                 </div>
                 <div>
-                    <input type="text" name="" id="" />
-                    <input type="text" name="" id="" />
-                    <input type="text" name="" id="" />
-                    <input type="text" name="" id="" />
-                    <input type="text" name="" id="" />
+                    <div id="contact">
+                        <h2 style={{color: 'red'}} >Mail</h2>
+                    </div>
+                    <div id="input">
+                        <input type="text" name="name" placeholder="Your Name" id="" />
+                        <input type="text" name="email" placeholder="Your Email" id="" />
+                        <textarea name="text" placeholder="Write Your Message" id=""></textarea>
+                        <input style={{color: "red" , backgroundColor: 'yellow'}} type="submit" value="Sent" />
+                    </div>
                 </div>
             </div>
         </div>
